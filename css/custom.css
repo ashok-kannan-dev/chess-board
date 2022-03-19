@@ -53,5 +53,15 @@
 }
 
 .grey {
-    background: #e0e0e0;
+    background: #000;
+}
+
+div[data-player="w"] {
+    color: #3cff00;
+    text-shadow: 1px 1px 1px black;
+}
+
+div[data-player="b"] {
+    color: #f00;
+    text-shadow: 1px 1px 1px black;
 }
