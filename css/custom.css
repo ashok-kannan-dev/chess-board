@@ -4,6 +4,7 @@ body * {
 }
 
 body {
+    margin: 0;
     background-color: #ccc;
 }
 
@@ -22,7 +23,7 @@ body {
 
 .player {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 0 0;
 }
 
 .row {
@@ -72,4 +73,25 @@ div[data-player="w"] {
 div[data-player="b"] {
     color: #f00;
     text-shadow: 1px 1px 1px black;
+}
+
+.player-white {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #3cff00;
+    box-shadow: 0 0 15px rgb(0 0 0 / 26%);
+    width: auto;
+    display: inline-block;
+}
+
+.player-black {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #f00;
+    color: #fff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 26%);
+    width: auto;
+    display: inline-block;
 }
