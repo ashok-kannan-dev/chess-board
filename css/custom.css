@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+body * {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -7,7 +16,6 @@
 
 #app {
     display: inline-block;
-    border: solid 10px #424242;
     box-shadow: 0 0 40px grey;
     /*   transform: rotateX(10deg); */
 }
